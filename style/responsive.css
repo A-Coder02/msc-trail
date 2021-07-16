@@ -3,7 +3,6 @@ header{
 }
 @media only screen and (max-width:800px){
 	.content-banner h1 {
-    font-family: 'Lora', serif;
     font-size: 1.7rem;
     padding: 1rem 0;
 }
