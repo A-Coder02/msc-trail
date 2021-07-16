@@ -89,6 +89,12 @@ header{
 	
 }
 @media only screen and (max-width:496px){
+	a.tr {
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 	.top-banner {
     display: flex;
     flex-direction: column;
@@ -96,13 +102,33 @@ header{
     position: relative;
     height: 65vh;
 }
+.cart-section {
+    background: whitesmoke;
+    color: black;
+    width: 0vw;
+    font-size: 0.85rem;
+    position: fixed;
+    right: 0;
+    z-index: 5;
+    height: 100vh;
+    transition: 0.3s width;
+    padding: 1rem 0;
+    overflow: auto;
+    padding-bottom: 3rem;
+}
+.cart-btns {
+    font-size: 1.2rem;
+    padding: 1.2rem !important;
+    background: #ff0000;
+    margin: 1.4rem 0;
+}
 .slider-menu {
     text-transform: uppercase;
     display: block;
     overflow: auto;
     padding: 0px;
     position: fixed;
-    top: 120px;
+    top: 98px;
     z-index: 2;
     background: #000000;
     color: red;

@@ -188,8 +188,8 @@ img{
     align-content: center;
     z-index: 4;
     flex-wrap: wrap;
-    font-size: 1.5rem;
-    font-family: var(--f-style);
+    font-size: 0.9rem;
+    font-family: var(--f1-style);
     color: white;
     font-weight: 700;
 }
@@ -208,10 +208,10 @@ img{
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 58px;
+    top: 52px;
     height: 135px;
     z-index: 3;
-    background: url("../header-back.jpg");
+    /* background: url("../header-back.jpg"); */
     background-color: #8bc34a;
     background-blend-mode: luminosity;
 }
@@ -224,7 +224,7 @@ img{
     width: 100%;
     justify-content: center;
     left: 0;
-    top: 60px;
+    top: 52px;
     font-size: 0.8rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -233,21 +233,24 @@ img{
 	font-family: 'Krona One', sans-serif;
 }
 .subs a{color:whitesmoke !important;text-decoration:underline;}
-.imp-links-slots{
-	overflow:hidden;
-	position:absolute;
-	top:35px; 
-	height:60vh;
-	background:white;
-	width:60vw;
-	padding:20px;
-	display:none;
-	border:3px whitesmoke solid;
-	border-top:none;
-	 /* justify-content:space-around;  */
-	/* box-shadow:0px 0px 2px black; */
-	z-index:2;
-	
+.imp-links-slots {
+    overflow: hidden;
+    position: absolute;
+    top: 23px;
+    height: 60vh;
+    color: black;
+    background: white;
+    width: 60vw;
+    padding: 20px;
+    display: none;
+    border: 3px whitesmoke solid;
+    border-top: none;
+    /* justify-content: space-around; */
+    /* box-shadow: 0px 0px 2px black; */
+    z-index: 2;
+}
+.show-ul .imp-links-slots{
+	top: 28px;
 }
 .imp-links:hover .imp-links-slots{
 	display:flex;
@@ -292,7 +295,6 @@ img{
 }
 footer{
 	padding-bottom:20px;
-	padding-top:3em;
 }
 .subs{
 	width: 100%;
@@ -469,18 +471,18 @@ p{
     border-radius: 50%;
 }
 .social-links {
-	position:relative;
-	bottom:-3.5rem;
+    position: relative;
+    bottom: -3.5rem;
     padding: 3.5rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     text-align: center;
-    background: dimgrey;
+    background: #8bc34a;
     color: white;
     width: 100%;
     height: fit-content;
-	font-size:0.8rem;
+    font-size: 0.8rem;
 }
 .offer-bell-icon-M{
 	display:none;
@@ -522,3 +524,9 @@ justify-content:center;align-items:center;flex-direction:column;padding:0.2rem 0
 
 .imp-links:hover > a,.nimp-links:hover > a{color:gray !important;}
 .imp-links > a,.nimp-links > a{transition:500ms;}
+a.tr {
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
+	padding:1rem;
+}
