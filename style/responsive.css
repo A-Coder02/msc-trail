@@ -2,6 +2,16 @@ header{
 	    box-shadow: 0 0 0.4em #00000087;
 }
 @media only screen and (max-width:800px){
+	.box-items a {
+    display: grid;
+    align-content: center;
+    color: white !important;
+    padding: 20px;
+    width: 100%;
+    background: #000000a1;
+    /* transition: 500ms !important; */
+    height: 100%;
+}
 	.content-banner h1 {
     font-size: 1.7rem;
     padding: 1rem 0;
