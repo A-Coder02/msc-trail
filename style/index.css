@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 .navlinks{justify-content:center;}
 
-.top-banner{
-	display:flex;
-	flex-direction:column;
-	background-color:whitesmoke;
-	position:relative;
+.top-banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff6700;
+    position: relative;
 }
 .img-banner {
     display: flex;
